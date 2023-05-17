@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Document</title>
+  </head>
+  <body>
+        <header>
+      <h1 id="logo">Juicify</h1>
+      <img id="logo1" src="logo1 (2).png" />
+
+      <button id="button" type="button" onclick="home.html">Home</button>
+      <!-- <button id="button" type="button" onclick="home.html">New</button>
+      <button id="button" type="button" onclick="home.html">Offer</button> -->
+      <!-- <button id="button" type="button" onclick="home.html">Summer</button> -->
+      <button
+        id="button"
+        type="button"
+        onclick='document.location="branches.html"'
+      >
+        branches
+      </button>
+      <button
+        id="button"
+        type="button"
+        onclick='document.location="about.html"'
+      >
+        About
+      </button>
+    </header>
+    <section class="section">
+    <video autoplay muted loop id="myvideo">
+    <source src="tree.mp4" type="video/mp4">
+        <h1 id="branches">Branches</h1>
+        <p>Drinking freshly made juices and eating enough whole foods to provide adequate fiber is a sensible approach to a healthful diet.</p>
+    </source></video>
+    <div id="places">
+      <div id="place_image">
+        <a href="chennai.jpg" target="_blank"></a>
+            <div id="banner">
+      <div1 id="menu">
+        <img
+          id="freshjuice"
+          src="chennai.jpg"
+          alt="freshjuice"
+          height="250px"
+          width="400px"
+          onclick='document.location="freshjuice.html"'
+          target="_blank"
+        />
+      </div1>
+      <div2 id="menu">
+        <img
+          src="coimbatore.jpg"
+          alt="cooldrinks"
+          height="250px"
+          width="400px"
+          onclick='document.location="cooldrinks.html"'
+          target="_blank"
+        />
+      </div2>
+      <div3 id="menu">
+        <img
+          id="icecream"
+          src="tindivanam.jpg"
+          alt="icecream"
+          height="250px"
+          width="400px"
+          onclick="icecream.html"
+          target="_blank"
+        />
+      </div3>
+      <ul id="menu2">
+        <li>Chennai</li>
+        <li>Coimbatore</li>
+        <li>Tindivanam</li>
+        <li>Kochin</li>
+        </ul>
+    </div>
+    </section>
+    <style>
+
+      #places{
+        position:absolute;
+        padding: 40px 100px;
+        top: 100px;
+        margin-left: 10px;
+      }
+      #menu2 {
+  border: solid 6px rgb(red, green, blue);
+  color: dimgray;
+  width: auto;
+  position: absolute;
+  top: 20%;
+  padding: 20px 100px;
+}
+    </style>
+  </body>
+</html>
